@@ -10,8 +10,8 @@ get_24hformat_hour(hour_str)
 01 lam bai vao tep s00_bailam.py, chay Run de co ketqua tatca la 1
 02a mo github web, mo kiemtra tep s00_bailam.py, va lay diachi/url aka githubrepourl
 
-02b dán diachi githubrepourl theo mẫu ở trang web duoiday
-    TODO
+02b dán diachi githubrepourl vao mẫu don duoiday
+    https://forms.gle/XgvPs4beBaik7UiP7
 
 --- debai / problem
 Viết hàm
