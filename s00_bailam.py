@@ -41,6 +41,10 @@ get_24hformat_hour('11 PM')            | 23                     | 12
 #endregion debai
 
 #region bailam
+from datetime import datetime
 def get_24hformat_hour(hour_str):
-  return 'todo'
+    hour_str = hour_str.replace(' ', '').lower()
+    timeObj = datetime.strptime(hour_str, '%I%p')
+    return timeObj.hour
+print(get_24hformat_hour('11 AM'))
 #endregion bailam
